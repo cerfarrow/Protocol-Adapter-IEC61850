@@ -55,6 +55,10 @@ public enum DataAttribute {
      */
     RCB_A("rcb_A"),
     /**
+     * Property of LLN0 Node, rcb_A, contains the buffered report information.
+     */
+    RCB_A01("rcb_A01"),
+    /**
      * Property of LLN0 Node, rcb_B, contains the unbuffered report information.
      */
     RCB_B("rcb_B"),
