@@ -262,30 +262,6 @@ public class Iec61850DeviceConnectionService {
         }
     }
 
-    // /**
-    // * Reads server model from device for {@link IED.ABB_RTU} IED type. For
-    // * other IED types, uses
-    // * {@link
-    // Iec61850DeviceConnectionService#readServerModel(ClientAssociation,
-    // String, Iec61850Device)}
-    // * .
-    // */
-    // private ServerModel readServerModel(final ClientAssociation
-    // clientAssociation, final String deviceIdentification,
-    // final Iec61850Device iec61850Device, final IED ied) throws
-    // ProtocolAdapterException {
-    // // if (IED.ABB_RTU.equals(ied)) {
-    // // LOGGER.info("Reading ServerModel from device: {} of type: {} using
-    // // readServerModelFromDevice()",
-    // // deviceIdentification, ied.name());
-    // // return
-    // // this.iec61850Client.readServerModelFromDevice(clientAssociation);
-    // // } else {
-    // return this.readServerModel(clientAssociation, deviceIdentification,
-    // iec61850Device);
-    // // }
-    // }
-
     private ServerModel readServerModel(final ClientAssociation clientAssociation, final String deviceIdentification,
             final Iec61850Device iec61850Device) throws ProtocolAdapterException {
 
